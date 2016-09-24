@@ -24,8 +24,11 @@ h1, h2, h3 , h4 {
 	color: #e66086;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: .5em;
+	margin-top: 1em;
 	text-align: center;
 }
+
+h1 {font-size: 4em}
 
 h2 {font-size: 2em}
 
@@ -38,11 +41,20 @@ a {
 	text-decoration: none;
 }
 
+#wrapper {
+	background-color:  #FFFFFF;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header {padding: 12em;}
+
 nav a {
 	color: #cccccc;
 	font-style: italic;
 	margin-right: .8em;
 	margin-bottom: .8em;
+	margin-top: 2em;
 	text-align: center;
 }
 
@@ -53,6 +65,7 @@ img {
 main {padding: 1em;
 	width: 40em;
 	text-align: center;
+	margin: 0 auto;
 }
 
 ul, ol {padding-left: 1em;
@@ -78,3 +91,15 @@ p {
 	margin-bottom: 2em;
 	text-align: center;
 }
+
+#header {
+	background-image: url(../images/bcg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: auto;
+}
+
+
+
+
