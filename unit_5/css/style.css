@@ -16,7 +16,7 @@ body {
 }
 
 header {
-	background-color: ##e66086;
+	background-color: #e66086;
 	margin-bottom: 1.2em;
 }
 
@@ -86,9 +86,7 @@ img {
 }
 
 main {padding: 1em;
-	width: 40em;
-	text-align: center;
-	margin: 0 auto;
+	margin: 40px;
 }
 
 ul, ol {padding-left: 1em;
@@ -114,6 +112,8 @@ footer {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    width: 400px;
+    margin: 20px;
 }
 
 #footer {
@@ -125,11 +125,25 @@ h3, h4, h5 {
 	margin: 1em;
 }
 
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.offerings {
+	background-color: pink;
+	margin: 20px;
+	float: left;
+	width: 400px;
+}
+
 p {
 	margin-bottom: 2em;
-	text-align: center;
 }
 
 
-   
-
+  
