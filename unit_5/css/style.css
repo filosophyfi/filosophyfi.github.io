@@ -50,18 +50,16 @@ a {
 #wrapper {
 	background-color:  #FFFFFF;
 	width: 100%;
-	margin: 0 auto;
 }
 
 #header {
 	background-color: #FFED74;
-    border: 1px black solid;
     padding: 20px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
-	width: auto;
 	background-image: url(../images/bcg.jpg);
+	margin: 40px;
 
 }
 
@@ -78,8 +76,6 @@ nav a {
 	margin-top: 2em;
 	text-align: center;
 }
-
-
 
 img {
 	width: 100%;
@@ -108,7 +104,7 @@ footer {
     padding: 20px;
 }
 
-#article {
+#intro {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
@@ -125,13 +121,13 @@ h3, h4, h5 {
 	margin: 1em;
 }
 
-.clearfix:after{
-	visibility: hidden;
-	height: 0;
-	font-size: 0;
-	content: " ";
-	display: block;
-	clear: both;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 .offerings {
@@ -139,6 +135,40 @@ h3, h4, h5 {
 	margin: 20px;
 	float: left;
 	width: 400px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 p {
