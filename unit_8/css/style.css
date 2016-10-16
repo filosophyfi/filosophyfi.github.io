@@ -1,0 +1,203 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Lora|Open+Sans:300';
+</style>
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 16px; /*1em = 16px*/
+	color: 222222;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+header {
+    margin-bottom: 1.2em;
+    margin-top: .2em;
+    background-image: url(../images/bcg.jpg);
+    height: 600px;
+}
+
+h1, h2, h3 , h4 {
+	color: #e66086;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 4em;
+
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 1.7em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+a {
+	color: #e66086;
+	text-decoration: none;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.wrapperclearfix {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrapperclearfix img {
+	max-width: 250px;
+	display: block;
+	margin: auto;
+}
+
+#header {
+    padding: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 600px;
+	background-image: url(images/bcg.jpg) no-repeat center center scroll;
+}
+
+#nav {
+    padding: 20px;
+}
+
+nav a {
+	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: .8em;
+	margin-bottom: .4em;
+	margin-top: 2em;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 1em;
+	width: 20em;
+	margin: 20px;
+	text-align: center;
+}
+
+ul, ol {
+	padding-left: 1em;
+	margin-bottom: .8em
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+#intro {
+	width: 650px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#two_column {
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.offerings {
+    width: 26%;
+    margin: 1%;
+    display:inline-block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#wrapper {    
+    padding: 10px;
+}
+
+#article {
+    padding: 10px;
+}
+
+footer {
+    background-color: #cccccc;;
+    padding: 20px;
+}
+
+h3, h4, h5 {
+	margin: 1em;
+}
+
+p {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+@media screen and (max-width:1220px){
+	header{
+		padding:0 10%;
+	}
+
+	.offerings{
+		height: 450px;
+	}
+
+}
+
+@media screen and (max-width:1000px){
+	.offerings{
+		width:100%;
+		float:none;
+		height: auto;
+	}
+}
+
+@media screen and (max-width:750px){
+	nav{
+		display: none;
+	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+
