@@ -34,7 +34,7 @@ h1 {
 	font-size: 4em;
 	font-weight: 100;
 	text-align: center;
-	padding-top: 4em;
+	padding-top: none;
 
 }
 
@@ -45,10 +45,12 @@ h2 {
 
 h3 {
 	font-size: 1.7em;
+	font-weight: 100;
 }
 
 h4 {
 	font-size: 1.2em;
+	font-weight: 100;
 }
 
 a {
@@ -88,7 +90,7 @@ nav a {
 	font-family: 'Open Sans', sans-serif;
 	margin-right: .8em;
 	margin-bottom: .4em;
-	margin-top: 2em;
+	margin-top: 1.5em;
 	text-align: center;
 }
 
@@ -100,6 +102,7 @@ main {
 	padding: 1em;
 	width: 20em;
 	margin: 20px;
+	margin-bottom: 5px;
 	text-align: center;
 }
 
@@ -120,6 +123,11 @@ hr {
 
 footer {
 	text-align: center;
+}
+
+#contact {
+	margin-bottom: 2em;
+	padding-bottom: 2em;
 }
 
 #intro {
@@ -153,7 +161,14 @@ footer {
 }
 
 #article {
-    padding: 10px;
+    padding: px;
+}
+
+#butterfly {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 140px;
+	padding-bottom: none;
 }
 
 footer {
