@@ -19,10 +19,13 @@ header {
     margin-bottom: 1.2em;
     margin-top: .2em;
     background-image: url(../images/bcg.jpg);
+    background-image: cover;
+	background-size: 1900px;
+    background-repeat: no-repeat;
     height: 600px;
 }
 
-h1, h2, h3 , h4 {
+h1, h2, h3, h4 {
 	color: #e66086;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: .5em;
@@ -139,6 +142,16 @@ footer {
 #two_column {
     padding: 5px;
     margin: 0 auto;
+}
+
+#subhead {
+	color: #ffffff
+	font-size: 1.7em;
+	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	text-align: center;
 }
 
 .offerings {
