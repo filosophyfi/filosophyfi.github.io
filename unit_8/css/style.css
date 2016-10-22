@@ -158,6 +158,7 @@ footer {
     width: 26%;
     margin: 1%;
     display:inline-block;
+    image: url(images/icon2.png);
 }
 
 .clearfix:after {
