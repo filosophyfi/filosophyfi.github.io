@@ -49,6 +49,7 @@ h2 {
 h3 {
 	font-size: 1.7em;
 	font-weight: 100;
+	padding-bottom: 1em;
 }
 
 h4 {
@@ -81,7 +82,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 600px;
-	background-image: url(images/bcg.jpg) no-repeat center center scroll;
+	background-image: url(images/bcg2.jpg) no-repeat center center scroll;
 }
 
 #nav {
@@ -114,8 +115,14 @@ ul, ol {
 	margin-bottom: .8em
 }
 
+li {padding-bottom: 1em;
+	padding-top: 1em;
+}
+
 ul {
   list-style-type: none;
+  margin-bottom: 1em
+  padding-bottom: 2em;
 }
 
 hr {
@@ -126,10 +133,13 @@ hr {
 
 footer {
 	text-align: center;
+	margin-top: 1em;
 }
 
 #contact {
+	margin-top: 1em;
 	margin-bottom: 2em;
+	padding-top: .5em;
 	padding-bottom: 2em;
 }
 
@@ -144,9 +154,9 @@ footer {
     margin: 0 auto;
 }
 
-#subhead {
-	color: #ffffff
-	font-size: 1.7em;
+#subhead > h3 {
+	color: #e66086;
+	font-size: 1.5em;
 	font-weight: 100;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: .5em;
@@ -175,7 +185,7 @@ footer {
 }
 
 #article {
-    padding: px;
+    padding: 10px;
 }
 
 #butterfly {
@@ -199,16 +209,26 @@ p {
 	text-align: center;
 }
 
+.icons {
+	width: 55%;
+}
+
+.container {
+	border-top: 1px solid #e66086;
+	border-bottom: 1px solid #e66086;
+	margin-bottom: 3em;
+	padding-top: 30px 0;
+	padding-bottom: 20px;
+}
+
 @media screen and (max-width:1220px){
 	header{
 		padding:0 10%;
 	}
 
 	.offerings{
-		height: 450px;
+		height: 300px;
 	}
-
-}
 
 @media screen and (max-width:1000px){
 	.offerings{
